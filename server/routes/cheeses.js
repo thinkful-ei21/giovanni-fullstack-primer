@@ -27,8 +27,7 @@ router.get('/', (req, res, next) =>{
     'Blue Wensleydale',
     'Yorkshire Blue'
   ];
-
-  res.json(cheeses)
+  res.json(cheeses);
 
 
 });
